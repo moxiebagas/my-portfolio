@@ -21,33 +21,33 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "Vue Js",
+        name: "Bootstrap",
         image:
-          "https://i.postimg.cc/90XLL6Tn/Vuejs.png",
-      },
-      {
-        name: "React Js",
-        image:
-          "https://i.postimg.cc/L6GsLfrr/ReactJs.png",
-      },
-      {
-        name: "HTML",
-        image: "https://i.postimg.cc/Bvj5nxft/HTML.png",
+          "https://i.ibb.co/GFTL1y7/Bootstrap.png",
       },
       {
         name: "CSS",
         image:
-          "https://i.postimg.cc/vmCrgcGh/CSS.png",
+          "https://i.ibb.co/9ZNQ1dj/CSS.png",
+      },
+      {
+        name: "HTML",
+        image: "https://i.ibb.co/yf5Dy7R/HTML.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://i.postimg.cc/901kdG8Z/Java-Script.png",
+          "https://i.ibb.co/hymCDTX/Java-Script.png",
       },
       {
-        name: "Bootstrap",
+        name: "React Js",
         image:
-          "https://i.postimg.cc/qqgsFyB8/Bootstrap.png",
+          "https://i.ibb.co/ft5JPZ1/ReactJs.png",
+      },
+      {
+        name: "Vue Js",
+        image:
+          "https://i.ibb.co/DDg2jwn/Vuejs.png",
       },
     ],
   },
@@ -55,37 +55,37 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Laravel",
-        image: "https://i.postimg.cc/bJTrK9zs/Laravel.png",
-      },
-      {
         name: "CodeIgniter",
         image:
-          "https://i.postimg.cc/0yDwVmJJ/Codeigniter.png",
-      },
-      {
-        name: "PHP",
-        image:
-          "https://i.postimg.cc/4471RYDB/PHP.png",
-      },
-      {
-        name: "NetBeans",
-        image:
-          "https://i.postimg.cc/DzWpmxWb/NetBeans.png",
+          "https://i.ibb.co/8MX46Bn/Codeigniter.png",
       },
       {
         name: "Java",
         image:
-          "https://i.postimg.cc/63hB169K/Java.png",
+          "https://i.ibb.co/sHjQn10/Java.png",
       },
       {
-        name: "Node Js",
-        image: "https://i.postimg.cc/rs9bzYpT/NodeJs.png",
+        name: "Laravel",
+        image: "https://i.ibb.co/Yf09fgx/Laravel.png",
       },
       {
         name: "MySQL",
         image:
-          "https://i.postimg.cc/9fN1hZJF/MySQL.png",
+        "https://i.ibb.co/WF0h66D/MySQL.png",
+      },
+      {
+        name: "NetBeans",
+        image:
+          "https://i.ibb.co/MSfv4HG/NetBeans.png",
+      },
+      {
+        name: "Node Js",
+        image: "https://i.ibb.co/tKKRPDY/NodeJs.png",
+      },
+      {
+        name: "PHP",
+        image:
+          "https://i.ibb.co/BghWQMJ/PHP.png",
       },
     ],
   },
@@ -93,19 +93,19 @@ export const skills = [
     title: "Android",
     skills: [
       {
+        name: "Android Studio",
+        image:
+          "https://i.ibb.co/3CvKwXL/Android-Studio.png",
+      },
+      {
         name: "Java",
         image:
-          "https://i.postimg.cc/63hB169K/Java.png",
+          "https://i.ibb.co/sHjQn10/Java.png",
       },
       {
         name: "XML",
         image:
-          "https://i.postimg.cc/pd48kH2q/XML.png",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://i.postimg.cc/HkJPLTPt/Android-Studio.png",
+          "https://i.ibb.co/s3tr88Z/XML.png",
       },
     ],
   },
@@ -113,39 +113,39 @@ export const skills = [
     title: "Others",
     skills: [
       {
+        name: "CircleCI",
+        image:
+          "https://i.ibb.co/ZBtQmtF/CircleCI.png",
+      },
+      {
         name: "Git",
         image:
-          "https://i.postimg.cc/Cx3f9nrk/Git.png",
+          "https://i.ibb.co/PwvQKbp/Git.png",
       },
       {
         name: "GitHub",
         image:
-          "https://i.postimg.cc/DyTHfS9d/GitHub.png",
+          "https://i.ibb.co/4V5mnYp/GitHub.png",
       },
       {
         name: "Jenkins",
         image:
-          "https://i.postimg.cc/ZKSzM7jc/Jenkins.png",
+          "https://i.ibb.co/BLzsfZB/Jenkins.png",
       },
       {
-        name: "CircleCI",
+        name: "Katalon Studio",
         image:
-          "https://i.postimg.cc/qqSRP9BQ/CircleCI.png",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://i.postimg.cc/DzqkPRbL/Postman.png",
-      },
-      {
-        name: "Katalon",
-        image:
-          "https://i.postimg.cc/KYD11qQv/Katalon.png",
+          "https://i.ibb.co/QvYHZP3/Katalon.png",
       },
       {
         name: "PHPUnit",
         image:
-          "https://i.postimg.cc/d3L3SqFL/PHPUnit.png",
+          "https://i.ibb.co/cvSFLJV/PHPUnit.png",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://i.ibb.co/LNqL619/Postman.png",
       },
     ],
   },

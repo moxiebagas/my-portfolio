@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import "./style.css";
 import { useState } from 'react';
 import Contact from './components/Contacts';
+import Projects from './components/Projects';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -48,6 +49,7 @@ function App() {
           <Skills/>
           <Experience/>
           <Education/>
+          <Projects/>
           <Contact/>
         </Wrapper>
         <Footer/>

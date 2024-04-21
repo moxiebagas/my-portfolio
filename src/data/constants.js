@@ -4,7 +4,7 @@ export const Bio = {
     "Full Stack Developer",
     "Software Developer",
     "DevOps Engineer",
-    "Freelancer"
+    "Freelancer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -22,33 +22,28 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "Bootstrap",
-        image:
-          "https://i.ibb.co/GFTL1y7/Bootstrap.png",
+        name: "HTML",
+        image: require("../images/skills/HTML.png"),
       },
       {
         name: "CSS",
-        image:
-          "https://i.ibb.co/9ZNQ1dj/CSS.png",
+        image: require("../images/skills/CSS.png"),
       },
       {
-        name: "HTML",
-        image: "https://i.ibb.co/yf5Dy7R/HTML.png",
+        name: "Bootstrap",
+        image: require("../images/skills/Bootstrap.png"),
       },
       {
         name: "JavaScript",
-        image:
-          "https://i.ibb.co/hymCDTX/Java-Script.png",
-      },
-      {
-        name: "React Js",
-        image:
-          "https://i.ibb.co/ft5JPZ1/ReactJs.png",
+        image: require("../images/skills/JavaScript.png"),
       },
       {
         name: "Vue Js",
-        image:
-          "https://i.ibb.co/DDg2jwn/Vuejs.png",
+        image: require("../images/skills/Vuejs.png"),
+      },
+      {
+        name: "React Js",
+        image: require("../images/skills/ReactJs.png"),
       },
     ],
   },
@@ -56,37 +51,32 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "CodeIgniter",
-        image:
-          "https://i.ibb.co/8MX46Bn/Codeigniter.png",
-      },
-      {
-        name: "Java",
-        image:
-          "https://i.ibb.co/sHjQn10/Java.png",
+        name: "PHP",
+        image: require("../images/skills/PHP.png"),
       },
       {
         name: "Laravel",
-        image: "https://i.ibb.co/Yf09fgx/Laravel.png",
+        image: require("../images/skills/Laravel.png"),
+      },
+      {
+        name: "CodeIgniter",
+        image: require("../images/skills/Codeigniter.png"),
       },
       {
         name: "MySQL",
-        image:
-        "https://i.ibb.co/WF0h66D/MySQL.png",
+        image: require("../images/skills/MySQL.png"),
+      },
+      {
+        name: "Java",
+        image: require("../images/skills/Java.png"),
       },
       {
         name: "NetBeans",
-        image:
-          "https://i.ibb.co/MSfv4HG/NetBeans.png",
+        image: require("../images/skills/NetBeans.png"),
       },
       {
         name: "Node Js",
-        image: "https://i.ibb.co/tKKRPDY/NodeJs.png",
-      },
-      {
-        name: "PHP",
-        image:
-          "https://i.ibb.co/BghWQMJ/PHP.png",
+        image: require("../images/skills/NodeJs.png"),
       },
     ],
   },
@@ -95,18 +85,15 @@ export const skills = [
     skills: [
       {
         name: "Android Studio",
-        image:
-          "https://i.ibb.co/3CvKwXL/Android-Studio.png",
+        image: require("../images/skills/AndroidStudio.png"),
       },
       {
         name: "Java",
-        image:
-          "https://i.ibb.co/sHjQn10/Java.png",
+        image: require("../images/skills/Java.png"),
       },
       {
         name: "XML",
-        image:
-          "https://i.ibb.co/s3tr88Z/XML.png",
+        image: require("../images/skills/XML.png"),
       },
     ],
   },
@@ -114,39 +101,32 @@ export const skills = [
     title: "Others",
     skills: [
       {
-        name: "CircleCI",
-        image:
-          "https://i.ibb.co/ZBtQmtF/CircleCI.png",
-      },
-      {
         name: "Git",
-        image:
-          "https://i.ibb.co/PwvQKbp/Git.png",
+        image: require("../images/skills/Git.png"),
       },
       {
         name: "GitHub",
-        image:
-          "https://i.ibb.co/4V5mnYp/GitHub.png",
+        image: require("../images/skills/GitHub.png"),
       },
       {
         name: "Jenkins",
-        image:
-          "https://i.ibb.co/BLzsfZB/Jenkins.png",
-      },
-      {
-        name: "Katalon Studio",
-        image:
-          "https://i.ibb.co/QvYHZP3/Katalon.png",
+        image: require("../images/skills/Jenkins.png"),
       },
       {
         name: "PHPUnit",
-        image:
-          "https://i.ibb.co/cvSFLJV/PHPUnit.png",
+        image: require("../images/skills/PHPUnit.png"),
+      },
+      {
+        name: "CircleCI",
+        image: require("../images/skills/CircleCI.png"),
       },
       {
         name: "Postman",
-        image:
-          "https://i.ibb.co/LNqL619/Postman.png",
+        image: require("../images/skills/Postman.png"),
+      },
+      {
+        name: "Katalon Studio",
+        image: require("../images/skills/Katalon.png"),
       },
     ],
   },
@@ -155,43 +135,43 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://i.ibb.co/K06D6Vd/Barantum.png", 
+    img: require("../images/experience/Barantum.png"),
     role: "Full Stack Developer",
     company: "Barantum",
     date: "Oktober 2022 - Present",
     desc: "Build CRM Web Application Using PHP Framework (Laravel) & JavaScript Framework (Vue Js).",
     skills: [
-      "Vue JS",
-      "Laravel",
       "PHP",
+      "Laravel",
+      "MySQL",
       "HTML",
       "CSS",
       "JavaScript",
-      "MySQL",
+      "Vue JS",
       "PHPUnit",
-      "Katalon",
       "Jenkins",
       "CircleCI",
+      "Katalon",
     ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
-    img: "https://i.ibb.co/C8Cv35K/AXI.jpg",
+    img: require("../images/experience/AXI.jpg"),
     role: "Software Developer",
     company: "Astragraphia Xprins Indonesia",
     date: "Februari 2021 - Oktober 2022",
     desc: "Create Desktop & Web-based Applications to Help The Printing And Delivery Process by Couriers Based on Client Requests Using Netbeans, Delphi, Visual FoxPro and CodeIgniter.",
     skills: [
-      "Java",
-      "NetBeans",
-      "Pascal",
-      "Delphi",
-      "CodeIgniter",
       "HTML",
       "CSS",
       "JavaScript",
+      "Java",
+      "NetBeans",
+      "PHP",
+      "CodeIgniter",
       "MySQL",
+      "Pascal",
+      "Delphi",
       "DBF",
       "Microsoft Visual FoxPro",
     ],
@@ -201,7 +181,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://i.ibb.co/4YL1rbN/gunadarma-university.png",
+    img: require("../images/experience/gunadarma-university.png"),
     school: "Gunadarma University",
     date: "Jun 2015 - Aug 2020",
     grade: "3.23 GPA",

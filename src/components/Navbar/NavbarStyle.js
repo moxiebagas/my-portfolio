@@ -15,6 +15,7 @@ export const Nav = styled.div`
       trastion: 0.8s all ease;
   }
 `;
+
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -37,11 +38,13 @@ export const NavLogo = styled(LinkR)`
     padding: 0 0px;
   }
 `;
+
 export const Span = styled.div`
   padding: 0 4px;
   font-weight: bold;
   font-size: 18px;
 `;
+
 export const NavItems = styled.ul`
   width: 100%;
   display: flex;
@@ -91,7 +94,6 @@ export const NavLink = styled.a`
   } */
 `;
 
-
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -126,7 +128,6 @@ export const ButtonContainer = styled.div`
     display: none;
   }
 `;
-
 
 export const MobileIcon = styled.div`
   display: none;
@@ -208,7 +209,7 @@ export const MobileMenuButton = styled.a`
   }
 `;
 
-export  const MobileLink = styled.a`
+export const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;

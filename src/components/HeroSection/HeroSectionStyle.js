@@ -54,6 +54,7 @@ export const HeroInnerContainer = styled.div`
     flex-direction: column;
   }
 `;
+
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;

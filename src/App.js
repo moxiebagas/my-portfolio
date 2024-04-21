@@ -47,8 +47,6 @@ function App() {
         <Wrapper>
           <Skills/>
           <Experience/>
-        </Wrapper>
-        <Wrapper>
           <Education/>
           <Contact/>
         </Wrapper>

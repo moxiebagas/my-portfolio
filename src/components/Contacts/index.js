@@ -40,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container id="contacts">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>
